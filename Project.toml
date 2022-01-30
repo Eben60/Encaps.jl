@@ -1,7 +1,7 @@
 name = "Encaps"
 uuid = "ba3e091f-d730-4ff2-abdb-400e5c6ba874"
 authors = ["Eben60"]
-version = "0.1.1-beta.5"
+version = "0.1.1-beta.6"
 
 [deps]
 

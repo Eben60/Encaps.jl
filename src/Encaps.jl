@@ -18,6 +18,6 @@ function upd(p; kwargs...)
     return (; p...)
 end
 
-export unp, upd
+export @unp, upd
 
 end # module
