@@ -1,0 +1,15 @@
+name = "encaps"
+uuid = "ba3e091f-d730-4ff2-abdb-400e5c6ba874"
+authors = ["Eben60"]
+version = "0.1.0"
+
+[deps]
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
+
+[compat]
+julia = "^1"
