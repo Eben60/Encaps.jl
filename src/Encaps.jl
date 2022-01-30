@@ -2,6 +2,7 @@
 
 module Encaps
 
+# don't work in other scope
 macro unp(x)
     local nt = @eval $x
     for k in keys(nt)
