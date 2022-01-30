@@ -2,9 +2,8 @@
 
 module Encaps
 
-macro unp(p)
-    global p
-    local nt = eval(p)
+macro unp(x)
+    local nt = @eval $x
     for k in keys(nt)
         local v = nt[k]
         @eval $k = $v
