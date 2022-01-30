@@ -3,6 +3,7 @@
 module Encaps
 
 macro unp(p)
+    global p
     local nt = eval(p)
     for k in keys(nt)
         local v = nt[k]
