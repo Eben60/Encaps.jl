@@ -1,6 +1,6 @@
 # https://discourse.julialang.org/t/parsimonious-way-to-unpack-big-structs/66522/11
 
-module encaps
+module Encaps
 
 macro unp(p)
     local nt = eval(p)
