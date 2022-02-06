@@ -16,3 +16,8 @@ function unp(x)
     exs = [Expr(:(=), k, x[k]) for k in keys(x)]
     eval.(exs)
 end
+
+function unq(x)
+    exs = [Expr(:(=), k, QuoteNode(x[k])) for k in keys(x)]
+    eval.(exs)
+end
